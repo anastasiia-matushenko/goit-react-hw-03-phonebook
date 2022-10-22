@@ -5,7 +5,7 @@ import { Input, Button, Form, Label } from "./ContactForm.styled";
 export class ContactForm extends Component {
     state = {
         name: "",
-        number: '',
+        number: "",
     }
 
     handleChange = (evt) => {
